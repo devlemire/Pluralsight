@@ -1,0 +1,27 @@
+{
+  "name": "psadmin",
+  "version": "1.0.0",
+  "description": "Pluralsight tutorial hub",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j-lemire/Pluralsight.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/j-lemire/Pluralsight/issues"
+  },
+  "homepage": "https://github.com/j-lemire/Pluralsight#readme",
+  "devDependencies": {
+    "browserify": "^13.3.0",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-open": "^2.0.0",
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
