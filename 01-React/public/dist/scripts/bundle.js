@@ -6,7 +6,7 @@ module.exports = App;
 },{}],2:[function(require,module,exports){
 var alt = require('./alt.js');
 
-var App = console.log('Hello World from Browserify');
+var App = console.log('Hello World from Browserify asdas dasd');
 
 module.exports = App;
 
