@@ -6,7 +6,6 @@ var browserify 	= require('browserify');					// Bundle JS Files
 var reactify 	= require('reactify');						// Transform React JSX to JS
 var source 		= require('vinyl-source-stream');			// Use conventional text streams with Gulp
 var concat 		= require('gulp-concat');					// Concatenates Files
-var lint 		= require('gulp-eslint');					// Lint JS/X files
 var config 		= require('./public/config/gulpconfig');	// Import config
 
 // Start a local development server

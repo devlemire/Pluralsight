@@ -17,11 +17,8 @@
   },
   "homepage": "https://github.com/j-lemire/Pluralsight#readme",
   "devDependencies": {
-    "babel-cli": "^6.18.0",
-    "babel-core": "^6.21.0",
     "browserify": "^13.3.0",
     "gulp": "^3.9.1",
-    "gulp-babel": "^6.1.2",
     "gulp-concat": "^2.6.1",
     "gulp-connect": "^5.0.0",
     "gulp-open": "^2.0.0",
