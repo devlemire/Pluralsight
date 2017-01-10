@@ -1,11 +1,11 @@
 "use strict";
-var gulp 		= require('gulp');
+var gulp 		= require('gulp');							// Import gulp
 var connect 	= require('gulp-connect'); 					// Runs a local dev server
 var open 		= require('gulp-open'); 					// Open a url in a web browser
 var browserify 	= require('browserify');					// Bundle JS Files
 var reactify 	= require('reactify');						// Transform React JSX to JS
 var source 		= require('vinyl-source-stream');			// Use conventional text streams with Gulp
-var config 		= require('./public/config/gulpconfig');
+var config 		= require('./public/config/gulpconfig');	// Import config
 
 // Start a local development server
 gulp.task('develop', function() {
