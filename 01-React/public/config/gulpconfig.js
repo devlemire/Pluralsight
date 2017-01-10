@@ -4,6 +4,7 @@ var config = {
 	paths: {
 		html: 	'public/src/*.html',
 		js: 	'public/src/**/*.js',
+		mainJs: 'public/src/main.js',
 		dist: 	'public/dist'
 	}
 }
