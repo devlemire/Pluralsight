@@ -5,7 +5,7 @@ var config = {
 		html: 	'public/src/*.html',
 		js: 	'public/src/scripts/**/*.js',
 		css: 	'public/src/styles/*.css',
-		mainJs: 'public/src/scripts/main.js',
+		app: 	'public/src/scripts/app.js',
 		dist: 	'public/dist'
 	}
 }

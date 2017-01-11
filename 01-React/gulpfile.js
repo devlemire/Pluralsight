@@ -30,7 +30,7 @@ gulp.task('html', function() {
 
 // Gulp all JS files and move them into the dist folder
 gulp.task('js', function() {
-	browserify(config.paths.mainJs)
+	browserify(config.paths.app)
 		.transform(reactify)
 		.bundle()
 		.on('error', console.error.bind(console))
